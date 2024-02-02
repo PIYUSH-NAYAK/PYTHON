@@ -4,6 +4,7 @@
 x=50
 print(type(x))
 
+#  list 
 marks = [10,20,30]
 print(type(marks))
 print(marks)
@@ -33,7 +34,7 @@ print(class1[0:])
 print(class1[0:2])
 print(class1[0:4])
 
-# tuples cant be modified
+# tuples can't be modified
 # class1[2]=5
 # class1.append(33)
 # print(class1[3])
@@ -80,6 +81,8 @@ print(dir(set))
 # typecasting
 x=69.76
 print(type(x))
+print("type of x is " + str(type(x)))
+
 y=int(x)
 z=bool(x)
 print(type(y))
